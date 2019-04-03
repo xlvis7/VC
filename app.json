@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "ViceClicks",
+    "slug": "viceclicks",
+    "privacy": "public",
+    "sdkVersion": "32.0.0",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "url": "https://localhost:8000",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.ViceClicks.ViceClicks",
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.ViceClicks.ViceClicks"
+    },
+    "description": ""
+  }
+}
